@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+      <!--CABAÇALHO-->
+
+    <header>
+        <h1>Guilherme Veloso</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sobre-mim" >Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#projeto">Projetos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--CORPO DO HTML-->
+
+    <main>
+
+        <div class="center">
+            <img src="./imgs/Guilherme.jpeg" alt="">
+        </div>
+        <h2>Graduando em Engenharia de Software</h2>
+
+        <section id="sobre-mim">
+            <h3>Sobre mim</h3>
+            <p>Atualmente graduando em Engenharia de Software. Prestativo e de fácil de trabalhar em grupo. Inciante na área de criação de códigos.</p>
+        </section>
+        <section id="projeto">
+            <h3>Projetos</h3>
+            <p>Alguns de meus projetos acadêmicos foram o relógio digital, um site relacionado às queimadas que ocorreram este ano e um site de lista de tarefas.</p>
+
+            <ul class="grid">
+                <li class="large" style="background-image: url(./imgs/relogioDigital.jpg)"></li>
+                <li class="small" style="background-image: url(./imgs/queimadasHub.jpg)"></li>
+                <li class="large" style="background-image: url(./imgs/queimadasCausas.jpg)"></li>
+                <li class="small" style="background-image: url(./imgs/listaDeTarefas.jpg)"></li>
+            </ul>
+
+        </section>
+        <section id="contato">
+            <h3>Contatos</h3>
+            <p>Para entrar em contato, preencha o formulário abaixo: </p>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="E-mail">
+                <button onclick="enviar()" id="envio">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!--FINAL-->
+
+    <footer>
+        <div class="links">
+            <a href="https://www.instagram.com/guilherme_veloso521/" target="_blank" rel="noopener noreferrer">
+                <img src="./imgIcons/Instagram_icon.png" alt="Instagram"></img>
+                <p>Instagram</p>
+            </a>
+            <a href="https://github.com/guilhermeveloso505" target="_blank" rel="noopener noreferrer">
+                <img src="./imgIcons/github_icon.png" alt="Github">
+                <p>Github</p>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
